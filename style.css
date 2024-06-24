@@ -1,0 +1,592 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    background-color:#050CDD;
+    font-size: x-large;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    
+    transition: background-color 0.7s;
+}
+
+.navlogo {
+    display: flex;
+    align-items: center;
+    background-color:#050CDD;
+    width: 60%;
+    height: 90px;
+    transition: background-color 0.7s;
+    
+}
+
+.navbarbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 90px;
+    background-color: #050CDD;
+    transition: background-color 0.7s;
+    
+}
+
+.navbarbox > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    transition: color 0.5s;
+   
+}
+
+
+.navbarbox > a:hover {
+    color: aqua;
+}
+
+.navbarbox > a.active {
+    color: #5fc9f3;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    flex-direction: column;
+    
+}
+
+section:nth-child(odd) {
+    background-color:white;
+}
+
+.scrolled .navbar {
+    background-color: #ffffff;
+  
+}
+
+.scrolled .navlogo {
+    background-color: #ffffff;
+   
+}
+
+.scrolled .navbarbox {
+    background-color: #ffffff;
+ 
+  
+}
+
+.sectionwelcome{
+    font-family:"Montserrat",sans-serif;
+    font-weight: 700 !important;
+    font-size: 20px;
+    line-height:1.2;
+    letter-spacing: -0.1em;
+    color: #fff;
+    gap: 15px;
+     
+}
+.sectiontyper{
+    color: #fff;
+    font-family: "Montserrat",Helvetica,sans-serif;
+ 
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    line-height:1.2;
+    font-weight: bolder;
+}
+.anasayfametin{
+    text-align: center;
+    font-family: "Open Sans",Helvetica,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.0em;
+  display: flex;
+  justify-content: center;
+  width: 55%;
+}
+.cvbox{
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.6em;
+    letter-spacing: 0.1em;
+    display: flex;
+    width: 150px;
+    height: 40px;
+    padding: 0px;
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+a{
+    
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.aboutbox{
+    background-color: #fff;
+    width: 65%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutbox1{
+    background-color:#fff;
+    width: 30%;
+    height: 650px;
+}
+
+.aboutbox2{
+    background-color:#fff;
+    width: 65%;
+    height: 650px;
+    text-align: center;
+    color: black;
+}
+
+.abouttitle{
+    color: black;
+    font-family: "Montserrat",Helvetica,sans-serif;
+ 
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    line-height:1.2;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+.aboutmetin{
+  text-align: start;
+  font-family: "Open Sans",Helvetica,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.0em;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+.miniboxbaba{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.aboutminibox1{
+    
+    text-align:center;
+    color:#050CDD ;
+    font-family:"Montserrat",sans-serif;
+    font-weight: 800 !important;
+    font-size: 25px;
+    line-height:1.2;
+    align-items:center;
+    
+   
+
+}
+
+
+.aboutminibox2{
+   
+   
+    text-align: center;
+    color:#050CDD ;
+    font-family:"Montserrat",sans-serif;
+    font-weight: 800 !important;
+    font-size: 20px;
+    line-height:1.2;
+   
+}
+
+.aboutminibox3{
+    background-color:#fff;
+    
+    text-align: center;
+    color:#050CDD ;
+    font-family:"Montserrat",sans-serif;
+    font-weight: 800 !important;
+    font-size: 20px;
+    line-height:1.2;
+    
+  
+}
+.aboutminiboxmetin{
+    
+    text-align: center;
+    justify-content: center;
+    color:black ;
+    font-family:"Montserrat",sans-serif;
+    font-weight: 800 !important;
+    font-size: 20px;
+    line-height:1.2;
+}
+
+.skillmainbox{
+    background-color: #fff;
+    width: 60%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.skilltitle{
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    
+}
+.skilltitle>p {
+    background-color: #fff;
+    align-items:start;
+    
+   
+    color:black ;
+    font-family:"Montserrat",sans-serif;
+    font-weight: 800 !important;
+    font-size: 25px;
+    line-height:1.2;
+    
+}
+
+.skilltext{
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.skilltext>p{
+    text-align: start;
+    font-family: "Open Sans",Helvetica,sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.0em;
+   color: black;
+}
+
+.skillmainboxes{
+    background-color:#fff ;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    
+    
+}
+
+.skillmainboxes1{
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    gap: 5px;
+    align-items: start;
+    
+    
+
+    
+}
+
+.skillmainboxes2{
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    gap: 5px;
+    align-items: start;
+    
+    
+}
+
+.skillmainboxes3{
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    gap: 5px;
+    align-items: start;
+    
+    
+}
+.skillmainboxes4{
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    gap: 5px;
+    align-items: start;
+    
+}
+.buyukyazi{
+    background-color: #fff;
+    align-items:start;
+    color:black ;
+    font-family:"Montserrat",sans-serif;
+    font-weight: 800 !important;
+    font-size: 25px;
+    line-height:1.2;
+}
+.kucukyazi{
+    text-align: start;
+    font-family: "Open Sans",Helvetica,sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.0em;
+    margin-left: 5px;
+}
+
+.duzcubuk1{
+    width:10%;
+    height: 10px;
+    background-color:#050CDD;
+    display: flex;
+    padding: 1px;
+}
+
+
+.duzcubuk2{
+    width:80%;
+    height: 10px;
+    background-color:#050CDD;
+    display: flex;
+    padding: 1px;
+}
+
+
+.duzcubuk3{
+    width:80%;
+    height: 10px;
+    background-color:#050CDD;
+    display: flex;
+    padding: 1px;
+}
+
+.duzcubuk4{
+    width:45%;
+    height: 10px;
+    background-color:#050CDD;
+    display: flex;
+    padding: 1px;
+}
+
+.projeboxana{
+
+    background-color: #fff;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+
+    
+}
+.projebox1{
+background-color: #363842;
+    width: 60%;
+    height: 600px;
+    border: #050CDD inset;
+    transition: 0.2s;
+}
+.projebox1:hover{
+    width: 65%;
+    height: 600px;
+    transition: 0.3s;
+   
+  
+}
+
+.projebox2:hover{
+    width: 65%;
+    height: 600px;
+    transition: 0.2s;
+   
+}
+
+.projebox2{
+    background-color: #686d85;
+        width: 60%;
+        height: 600px;
+        border: #050CDD outset;
+        transition: 0.3s;
+    }
+
+    .buyukyazi2{
+       
+        align-items:start;
+        color:black ;
+        font-family:"Montserrat",sans-serif;
+        font-weight: 800 !important;
+        font-size: 25px;
+        line-height:1.2;
+    }
+
+.contactmain{
+    background-color: #fff;
+    width: 60%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.contacttext{
+    text-align: start;
+    font-family: "Open Sans",Helvetica,sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.0em;
+    margin-top: 20px;
+    justify-content: stretch;
+
+}
+
+.contactbox1{
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    gap: 10px;
+    align-items:start;
+    color:black ;
+    font-family:"Montserrat",sans-serif;
+    font-weight: 800 !important;
+    font-size: 25px;
+    line-height:1.2;
+}
+
+.contactbox2{
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    
+}
+    
+
+
+
+    
+.contactbox3{
+    background-color: #fff;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.contactbox-4{
+    background-color: #fff;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.contactbox-5{
+    background-color: #fff;
+    width: 80%;
+    height: 500px;
+    
+}
+.contactbox-4-1{
+    background-color: #fff;
+    width: 70%;
+    height: 150px;
+
+}
+.contactbox-4-2{
+    background-color: #fff;
+    width: 80%;
+    height: 150px;
+}
+
+.contactbox-4-3{
+    background-color: #fff;
+    width: 70%;
+    height: 150px;
+}
+
+
+
+
+
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.form-group label {
+    width: 20%;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.form-group input, .form-group textarea {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #050CDD;
+    border-radius: 5px;
+}
+.form-group textarea {
+    resize: vertical;
+}
+.form-group .full-width {
+    width: 100%;
+}
+.submit-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.submit-button input {
+    padding: 10px 20px;
+    background-color: #050CDD;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-button input:hover {
+    background-color: #5fc9f3;
+    color: #fff;
+}
